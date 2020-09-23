@@ -20,9 +20,11 @@ const connect = function() {
     // setTimeout(() => {
     //   conn.write('Move: left');
     // }, 3000);
+    // setInterval(() => {
+    //   conn.write('Move: up');
+    // }, 50);
    
 
-    // conn.write('Move: left');
 
   })
   conn.on('data', (data) => {
